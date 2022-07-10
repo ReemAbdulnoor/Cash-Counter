@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cash Counter</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="_css.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <br /><br /><br /><br />
+    <h1 class="centered">Money Counter</h1>
+    <br /><br /><br /><br />
+    <div class="centered">
+      <table>
+        <td>
+          <label for="field100">100$</label>
+          <input type="number" id="field100" min="1" />
+        </td>
+        <td>
+          <label for="field50">50$</label>
+          <input type="number" id="field50" min="1" />
+        </td>
+        <td>
+          <label for="field20">20$</label>
+          <input type="number" id="field20" min="1" />
+        </td>
+        <td>
+          <label for="field5">10$</label>
+          <input type="number" id="field10" min="1" />
+        </td>
+        <td>
+          <label for="field5">5$</label>
+          <input type="number" id="field5" min="1" />
+        </td>
+      </table>
+    </div>
+    <br /><br />
+    <div class="centered">
+      <table>
+        <td>
+          <label for="field1">1$</label>
+          <input type="number" id="field1" min="1" />
+        </td>
+        <td>
+          <label for="field25c">25 ₵</label>
+          <input type="number" id="field25c" min="1" />
+        </td>
+        <td>
+          <label for="field10c">10 ₵</label>
+          <input type="number" id="field10c" min="1" />
+        </td>
+        <td>
+          <label for="field5c">5 ₵</label>
+          <input type="number" id="field5c" min="1" />
+        </td>
+
+        <td>
+          <label for="field1c">1 ₵</label>
+          <input type="number" id="field1c" min="1" />
+        </td>
+      </table>
+    </div>
+
+    <br />
+    <div class="centered">
+      <!--button that calculate the total amount of money-->
+      <button id="calcBtn">Calculate</button>
+
+      <!--button that clear everything-->
+      <button id="clearBtn">Clear</button>
+    </div>
+    <br />
+
+    <!--display the total amount of money-->
+    <h2 id="total" class="centered">Total Money: 0$</h2>
+
+    <script src="_scripts.js"></script>
+  </body>
+</html>
