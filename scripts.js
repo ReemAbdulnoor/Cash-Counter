@@ -1,4 +1,4 @@
-// a function that calcualte the total amount enter in the fileds by user
+//a function that calcualte the total amount enter in the fileds by user
 var calcBtn = document.getElementById("calcBtn");
 calcBtn.onclick = function () {
   var field100 = parseFloat(document.getElementById("field100").value * 100);
@@ -23,7 +23,7 @@ calcBtn.onclick = function () {
     field10c +
     field5c +
     field1c;
-  //   to round up to 2 decimal places only
+  //to round up to 2 decimal places only
   sumresult = "" + Math.round(sumresult * 100) / 100;
   document.getElementById("total").innerHTML =
     "Total Money: " + sumresult + "$";
